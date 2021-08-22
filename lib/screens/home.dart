@@ -75,19 +75,19 @@ class _LedgerState extends State<Ledger> {
                 Expanded(
                   child: Text(
                     "John",
-                    style: TextStyle(fontSize: 20, color: Colors.white),
+                    style: TextStyle(fontSize: 20, color: Colors.black),
                   ),
                 ),
                 Text(
                     '''40,0000''',
-                    style: TextStyle(fontSize: 20, color: Colors.white),
+                    style: TextStyle(fontSize: 20, color: Colors.black),
                   ),
               ],
             ));
     }
     return Scaffold(
         body: Container(
-      color: Colors.indigo.shade700,
+      // color: Colors.indigo.shade700,
       child: Padding(
         padding: EdgeInsets.all(15),
         child: ListView(
@@ -97,7 +97,7 @@ class _LedgerState extends State<Ledger> {
                 Expanded(
                   child: Text(
                     "Bank Banktut",
-                    style: TextStyle(fontSize: 20, color: Colors.white),
+                    style: TextStyle(fontSize: 20, color: Colors.black),
                   ),
                 ),
                 Icon(
@@ -110,7 +110,7 @@ class _LedgerState extends State<Ledger> {
               padding: EdgeInsets.only(top: 20),
               child: Text(
                 'Your Card',
-                style: TextStyle(fontSize: 20, color: Colors.white),
+                style: TextStyle(fontSize: 20, color: Colors.black),
               ),
             ),
             _horizontalImage([
@@ -139,7 +139,7 @@ class _LedgerState extends State<Ledger> {
                 Expanded(
                   child: Text(
                     "Recent activities",
-                    style: TextStyle(fontSize: 20, color: Colors.white),
+                    style: TextStyle(fontSize: 20, color: Colors.black),
                   ),
                 ),
                 Icon(
